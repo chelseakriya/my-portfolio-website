@@ -1,0 +1,56 @@
+/***** BASE STYLES *****/
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 800px;
+  text-align: center;
+}
+
+#work{
+  height: 1450px;
+
+}
+
+#about{
+  height: 650;
+
+}
+
+#contact{
+  height: 450;
+  text-align: center;
+}
+
+#work #about .half-width{
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+.full-width {
+  width: 1400px;
+}
+
+.half-width{
+  width: 700px;
+  height: 400px;
+  float: left;
+}
+
+.third-width{
+  width: 466px;
+  height: 150px;
+  float: left;
+}
+
+.photo {
+  height: 350px;
+  width: 550px;
+  padding-left: 100px;
+}
