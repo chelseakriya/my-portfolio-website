@@ -3,22 +3,19 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  width: 1400px;
+  height:3350px;
 }
 
 /***** GRID *****/
 
-#work{
-  height: 1450px;
-
-}
-
 #about{
-  height: 650;
+  height: 650px;
 
 }
 
 #contact{
-  height: 450;
+  height: 450px;
   text-align: center;
 }
 
@@ -28,11 +25,17 @@ body {
 
 h2 {
   text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  margin: 0px 0px 0px 0px;
 }
 
 .full-width {
   width: 1400px;
-  margin: 0 auto;
+  margin: 0px 0px 0px 0px;
 }
 
 .half-width{
@@ -73,9 +76,46 @@ header h1 {
   color: #bdbf09;
   font-size: 60px;
   margin: auto;
+  padding-top: 350px;
 }
 
 header p {
   color: #095256;
   font-size: 48px;
+  padding: 0px 300px 0px 300px;
+}
+
+/***** WORK *****/
+
+#work{
+  height: 1450px;
+  color: #095256;
+}
+
+/***** ABOUT *****/
+
+#about{
+background-color: #087e8b;
+background-size: cover;
+color: white;
+}
+
+main h3 {
+  font-size: 24px;
+  margin: 0px 0px 0px 0px;
+}
+
+main p {
+  font-size: 24px;
+}
+
+h3 span {
+    font-weight: normal;
+}
+
+/***** CONTACT *****/
+
+#contact{
+  background-color: #095156;
+  color: white;
 }
