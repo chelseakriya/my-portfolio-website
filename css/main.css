@@ -1,6 +1,6 @@
 /***** BASE STYLES *****/
 
-body html {
+body {
     font-family: 'Roboto', sans-serif;
     height:3350px;
     margin: 0 auto;
@@ -17,7 +17,7 @@ h2 {
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 120px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 /***** GRID *****/
@@ -56,7 +56,7 @@ header h1 {
 header p {
     color: #095256;
     font-size: 48px;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px;
 }
 
 /***** WORK *****/
@@ -86,7 +86,7 @@ header p {
 }
 main h3 {
     font-size: 24px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 main p {
     font-size: 24px;
